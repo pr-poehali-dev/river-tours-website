@@ -60,21 +60,22 @@ const Index = () => {
         className="relative min-h-screen flex items-center justify-center"
       >
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://v3.fal.media/files/elephant/0fPo3m24nSca_nHn0GiYn_output.png')`,
+            backgroundImage: `url('/img/8eb9d58b-5452-46f0-8466-af8a97993d7a.jpg')`,
           }}
         />
+        <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1
-            className="text-5xl md:text-7xl font-bold text-gray-900 mb-6"
+            className="text-5xl md:text-7xl font-bold text-white mb-6"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
             Речные приключения
-            <span className="block text-blue-600">ждут вас!</span>
+            <span className="block text-blue-300">ждут вас!</span>
           </h1>
           <p
-            className="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto"
+            className="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto"
             style={{ fontFamily: "Open Sans, sans-serif" }}
           >
             Безопасные сплавы по живописным рекам с опытными инструкторами.
